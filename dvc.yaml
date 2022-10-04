@@ -1,4 +1,12 @@
 #if some error while runing dvc, rum "dvc init" on the terminal
+# run this use "dvc repro"
+# most use common keys, first -> stage_name:
+# secondly -> cmd: what you want to run
+# third one is, dependensies(deps): should pass as a list (in any yaml file if you 
+#    '-' it means it is a list')
+# then use params: what we use from the params.yaml file
+# outs: it meas what you going to take output from the stage
+
 stages:
   data_ingestion:
     cmd: python src/deepClassifier/pipeline/stage_01_data_ingestion.py
