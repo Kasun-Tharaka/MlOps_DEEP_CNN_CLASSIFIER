@@ -1,0 +1,4 @@
+streamlit
+tensorflow
+
+#first you have to copy paste the h5 model into Prediction_service flder (in artifacts folder)
